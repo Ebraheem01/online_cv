@@ -1,0 +1,178 @@
+/* base styles */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../images/pexels-photo-1624254.jpeg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* styles for my header */
+
+.header-container {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/videoblocks-business-man-working-and-writing-in-laptop-on-office-desk-background-hands-top-view-slow-motion-red-epic_rdwdrtwl3x_thumbnail-full01.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 2em;
+}
+
+#my-name {
+    margin-bottom: 0;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+#jwd {
+    margin-top: 0;
+}
+
+/* styling for a dropdown nav */
+
+.btn {
+    background-color: rgba(0, 0, 0, 0.226);
+    color: red;
+    padding: 20px;
+    position: fixed;
+    font-size: 0.6em;
+    margin-top: 25px;
+    margin-left: 10px;
+    border: none;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* nav bar content styling */
+
+.content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.582);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.content a {
+    color:  #ff0000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+a {
+    font-size: 1.5em;
+    font-family: unset;
+    color: black;
+    text-decoration: none;
+    padding: 9px;
+}
+
+/* styling the nav on hover */
+
+.content a:hover {
+    background-color: #00ffff ;
+}
+
+.dropdown:hover 
+.content {
+    display: table-footer-group;
+}
+
+.content a:active {
+    background-color: red;
+    color: aqua;
+}
+
+.dropdown:hover
+ .dropbtn {
+     background-color: #00ffff;
+}
+
+/* hamburger nav bar */
+
+.menu {
+    width: 35px;
+    height: 5px;
+    background-color: #ff0000;
+    margin: 6px 0;
+}
+
+/* styling my images */
+
+.image1 {
+    width: 200px;
+    height: 200px;
+}
+
+.html-logo,
+.css-logo {
+    width: 100px;
+    height: 100px;
+}
+
+/* styling the main content */
+
+.main-container {
+    margin: 0 auto;
+    padding: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* styling the sub-content */
+
+.sub-content {
+    color: darkred;
+    text-align: center;
+    font-style: normal;
+    font-size: x-large;
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.295), rgba(255, 255, 255, 0.685),rgba(255, 255, 255, 0.055));
+    border: none;
+    border-radius: 30px;
+}
+
+/* creating a grid-container to seperate secondary and tertiary education */
+
+.data {
+    grid-area: data;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'data data';
+    grid-gap: 10px;
+
+}
+
+.grid-container>div {
+    background-color: rgba(245, 245, 220, 0);
+    padding: 0 20px ;
+    margin: 0 20px ;
+
+}
+
+/* styling the footer content */
+
+.footer-container {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+
