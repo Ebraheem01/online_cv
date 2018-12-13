@@ -171,8 +171,10 @@ a {
 /* styling the footer content */
 
 .footer-container {
-    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, black,rgb(0, 0, 0), rgba(0, 0, 255, 0.253));
     color: white;
     text-align: center;
+    border: red;
+    border-radius: 10px;
 }
 
