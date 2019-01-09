@@ -40,11 +40,27 @@ li a {
 
 a:hover {
     color: red;
+    background-color: black;
+    transition: ease-in 0.3;
+    -webkit-transition: ease-in 0.3s;
 }
 
 li a:active {
     background-color: black;
     color: red;
+}
+
+.btn {
+    background-color: rgba(0, 0, 255, 0);
+    margin: 170px;
+    color: #000000;
+}
+
+.bg {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* styling the main content */
@@ -54,6 +70,7 @@ li a:active {
     padding: 2px 16px;
     height: 100%;
     font-size: 1.3em;
+    text-shadow: 0.5px 1px black;
 }
 
 /* education */
@@ -77,6 +94,12 @@ li a:active {
     padding: 0 20px ;
     margin: 0 20px ;
 
+}
+
+/* skills */
+
+.skills {
+    padding: 112px;
 }
 
 footer {
