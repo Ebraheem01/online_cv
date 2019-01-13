@@ -5,6 +5,7 @@ html {
 }
 
 body {
+    font-family: 'Gamja Flower', cursive;
     margin: 0;
     padding: 0;
 }
@@ -15,6 +16,7 @@ body {
     background-color: #000000;
     color: #ffffff;
     padding: 10px;
+    text-shadow: 2px 2px blue;
 }
 
 /* styling the nav bar */
@@ -34,8 +36,10 @@ body {
 li a {
     display: block;
     color: #000000;
-    padding: 20px 0 15px 22px;
+    padding: 25px;
     text-decoration: none;
+    color: #ffffff;
+    text-shadow: 2px 2px rgb(0, 0, 255);
 }
 
 a:hover {
@@ -50,11 +54,19 @@ li a:active {
     color: red;
 }
 
+/* the button i created for downloading my cv */
+
 .btn {
     background-color: rgba(0, 0, 255, 0);
     margin: 170px;
-    color: #000000;
+    color: #ff0000;
 }
+
+.btn:hover {
+    background-color: #000000;
+}
+
+/* parallax styling for all the background images */
 
 .bg {
     background-attachment: fixed;
@@ -70,7 +82,7 @@ li a:active {
     padding: 2px 16px;
     height: 100%;
     font-size: 1.3em;
-    text-shadow: 0.5px 1px black;
+    text-shadow: 0.5px 1px red;
 }
 
 /* education */
@@ -96,16 +108,50 @@ li a:active {
 
 }
 
-/* skills */
-
-.skills {
-    padding: 112px;
-}
-
 footer {
     width: 100%;
     height: 10%;
     background-color: #000000;
+}
+
+.cptn-america {
+    background-image: url(../images/unnamed\ \(1\).gif);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-attachment: fixed;
+}
+
+.spiderman {
+    width: 5rem;
+    height: 8rem;
+    position: fixed;
+    right: 0;
+    margin-right: -1.8rem;
+    animation: crawling 10s linear infinite;
+}
+
+@keyframes crawling {
+    from {bottom: 100%;}
+    to {bottom: -50%;}
+}
+
+.bpanther {
+    width: 5rem;
+    height: 8rem;
+    position: fixed;
+    left: 0;
+    margin-left: 18%;
+    padding: 2px 16px;
+    animation: crawling 10s linear infinite;
+}
+
+.ironman {
+    width: 12rem;
+    height: 10rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-left: 18%;
 }
 
 
