@@ -13,10 +13,11 @@ body {
 /* styling the header */
 
 .header {
-    font-size: 1.5em;
+    font-family: 'Star Jedi', arial;
+    font-size: 2em;
     margin: 0%;
     text-align: center;
-    font-family: 'Cabin', sans-serif;
+    /* font-family: 'Cabin', sans-serif; */
     background-color: #000000;
     background-image: url(../images/stars.jpeg);
     background-position: center;
@@ -24,12 +25,36 @@ body {
     background-size: cover;
     color: #ffffff;
     padding: 20px 10px;
-    text-shadow: 2px 2px blue;
+    /* text-shadow: 2px 2px blue; */
     height: 620px;
+    animation-name: transitions;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes transitions {
+    from {font-size: 0em;
+    text-shadow: 20px 20px blue;}
+    to {font-size: 2em;
+    text-shadow: none;}
 }
 
 .h1-padding {
     padding-top: 125px;
+}
+
+.icon {
+    font-size: 1.2em;
+}
+
+.icon-colour01 {
+    color: #000000;
+    text-shadow: none;
+}
+
+.icon-colour02 {
+    color: white;
+    text-shadow: none;
 }
 
 /* styling the navigation bar */
