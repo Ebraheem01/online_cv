@@ -13,65 +13,38 @@ body {
 /* styling the header */
 
 .header {
+    font-size: 1.5em;
+    margin: 0%;
+    text-align: center;
     font-family: 'Cabin', sans-serif;
     background-color: #000000;
+    background-image: url(../images/stars.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     color: #ffffff;
-    padding: 10px;
+    padding: 20px 10px;
     text-shadow: 2px 2px blue;
+    height: 620px;
 }
 
-/* styling the nav bar */
+.h1-padding {
+    padding-top: 125px;
+}
 
-.nav ul {
+/* styling the navigation bar */
+
+nav ul,
+li, 
+a {
+    text-transform: uppercase;
+    text-shadow: 1px 1px red;
     list-style-type: none;
-    margin: 0%;
-    padding: 0%;
-    width: 13%;
-    height: 100%;
-    background-color: #505050;
-    position: absolute;
-    font-size: 1.5em;
-    overflow: auto;
-}
-
-li a {
-    list-style-type: none;
-    font-family: 'Cabin', sans-serif;
-    display: block;
-    color: #000000;
-    padding: 25px;
-    text-decoration: none;
-    color: #ffffff;
-    text-shadow: 2px 2px rgb(0, 0, 0);
-}
-
-a:hover {
     color: rgb(255, 255, 255);
-    background-color: black;
-    transition: ease-in 0.5;
-    -webkit-transition: ease-in 0.5s;
-}
-
-li a:active {
-    background-color: black;
-    color: red;
-}
-
-/* the button I created for downloading my cv */
-
-.btn {
-    background-color: rgb(0, 0, 0);
-    margin: 170px;
-}
-
-.btn a{
-    background-color: black;
-    color: rgb(0, 0, 255);
-    text-decoration: none;  
-}
-
-.btn a:hover {
-    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 10px 5px;
 }
 
 /* parallax styling for all the background images */
@@ -86,16 +59,31 @@ li a:active {
 /* styling the main content */
 
 .main-content {
-    margin-left: 14%;
+    text-align: center;
     padding: 2px 16px;
     height: 100%;
-    font-size: 1.3em;
-    text-shadow: 0.5px 1px red;
+    font-size: 1.5em;
+}
+
+.box-01 {
+    /* margin: 20px; */
+    /* background-color: rgba(255, 255, 255, 0.562);
+    box-shadow: 5px 5px rgb(49, 48, 48); */
+    /* border-radius: 20px; */
+    padding: 95px;
+    height: 500px;
 }
 
 /* education */
 
 /* creating a grid-container to seperate secondary and tertiary education */
+
+#education, 
+#projects,
+#contactMe {
+    background-color: black;
+    color: white;
+}
 
 .data {
     grid-area: data;
@@ -119,17 +107,24 @@ li a:active {
 /* styling the contact page  */
 
 #contact {
-    text-shadow: none;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     text-align: center;
-    padding-top: 200px;
+}
+
+.h3-style {
+    font-size: 1em;
+}
+
+.icons {
+    font-size: 90px;
 }
 
 #contact a {
+    text-shadow: none;
     text-decoration: none;
-    color: black;
-    background-color: white;
+    color: rgb(255, 255, 255);
+    text-transform: none;
 }
 
 #contact a:hover {
@@ -142,7 +137,38 @@ footer {
     background-color: #000000;
 }
 
+/* media queries */
+/* responsive design */
+/* ****
+****
+**** */
 
+/* changing font size of the nav bar  */
+@media only screen and (max-width:1148px) {
+    li a {
+        font-size: 16px;
+    }   
+} 
+
+/* changing the margin for the box so that everything fits crispy */
+/* changing the size of the font so that the contact page does not look wonky */
+
+@media only screen and (max-width:840px) {
+    .box-01 {
+        margin: 10px;
+    }
+
+    #contact {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:815px) {
+    .li a {
+        font-size: 12px;
+        padding: 20px;
+    }
+}
 
 
 
