@@ -12,12 +12,11 @@ body {
 
 /* styling the header */
 
-.header {
-    font-family: 'Star Jedi', arial;
+.header-container {
     font-size: 2em;
     margin: 0%;
     text-align: center;
-    /* font-family: 'Cabin', sans-serif; */
+    font-family: 'Cabin', sans-serif;
     background-color: #000000;
     background-image: url(../images/stars.jpeg);
     background-position: center;
@@ -32,6 +31,8 @@ body {
     animation-iteration-count: 1;
 }
 
+/* animations for my header */
+
 @keyframes transitions {
     from {font-size: 0em;
     text-shadow: 20px 20px blue;}
@@ -39,9 +40,22 @@ body {
     text-shadow: none;}
 }
 
+/* parallax styling for the background images */
+
+.bg {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* padding for my h1 in my header section */
+
 .h1-padding {
     padding-top: 125px;
 }
+
+/* styling my icons */
 
 .icon {
     font-size: 1.2em;
@@ -63,22 +77,21 @@ nav ul,
 li, 
 a {
     text-transform: uppercase;
-    text-shadow: 1px 1px red;
+    text-shadow: 1px 1px rgb(0, 0, 0);
     list-style-type: none;
     color: rgb(255, 255, 255);
     display: inline-block;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 0.8em;
     margin: 10px 5px;
+    padding-right: 10px;
 }
 
-/* parallax styling for all the background images */
-
-.bg {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+li a:hover {
+    font-size: 1em;
+    transition: ease-in 0.2s;
+    transition: ease-out 0.2s;
+    color: rgb(0, 140, 255);
 }
 
 /* styling the main content */
@@ -89,6 +102,8 @@ a {
     height: 100%;
     font-size: 1.5em;
 }
+
+/* a box I created to seperate my data */
 
 .box-01 {
     /* margin: 20px; */
