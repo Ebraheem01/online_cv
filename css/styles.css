@@ -13,16 +13,17 @@ body {
 /* styling the header */
 
 .header-container {
-    font-size: 2em;
+    font-family: 'Star Jedi', arial;
+    /* font-family: 'Cabin', sans-serif; */
+    font-size: 1.6em;
     margin: 0%;
     text-align: center;
-    font-family: 'Cabin', sans-serif;
     background-color: #000000;
     background-image: url(../images/stars.jpeg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    color: #ffffff;
+    color: #ffe600;
     padding: 20px 10px;
     /* text-shadow: 2px 2px blue; */
     height: 620px;
@@ -36,7 +37,7 @@ body {
 @keyframes transitions {
     from {font-size: 0em;
     text-shadow: 20px 20px blue;}
-    to {font-size: 2em;
+    to {font-size: 1.6em;
     text-shadow: none;}
 }
 
@@ -76,6 +77,7 @@ body {
 nav ul,
 li, 
 a {
+    font-family: 'Cabin', sans-serif;
     text-transform: uppercase;
     text-shadow: 1px 1px rgb(0, 0, 0);
     list-style-type: none;
@@ -88,10 +90,9 @@ a {
 }
 
 li a:hover {
-    font-size: 1em;
-    transition: ease-in 0.2s;
-    transition: ease-out 0.2s;
-    color: rgb(0, 140, 255);
+    font-size: 1.2em;
+    color: #ffe600;
+    transition: 1s;
 }
 
 /* styling the main content */
@@ -125,6 +126,11 @@ li a:hover {
     color: white;
 }
 
+.h1-size {
+    padding-right: 125px;
+    
+}
+
 .data {
     grid-area: data;
 }
@@ -133,7 +139,9 @@ li a:hover {
 .grid-container {
     display: grid;
     grid-template-areas: 'data data';
-    grid-gap: 10px;
+    grid-gap: 30px;
+    text-align: justify;
+    font-size: 1em;
 
 }
 
@@ -141,7 +149,15 @@ li a:hover {
     background-color: rgba(245, 245, 220, 0);
     padding: 0 20px ;
     margin: 0 20px ;
+    
 
+}
+
+/* project images */
+.images {
+    width: 280px;
+    height: 280px;
+    padding: 50px 10px 10px 10px;
 }
 
 /* styling the contact page  */
@@ -157,7 +173,7 @@ li a:hover {
 }
 
 .icons {
-    font-size: 90px;
+    font-size: 3em;
 }
 
 #contact a {
@@ -183,32 +199,234 @@ footer {
 ****
 **** */
 
-/* changing font size of the nav bar  */
-@media only screen and (max-width:1148px) {
-    li a {
-        font-size: 16px;
-    }   
-} 
+@media only screen and (max-width:1218px){
 
-/* changing the margin for the box so that everything fits crispy */
-/* changing the size of the font so that the contact page does not look wonky */
+/* styling the header */
 
-@media only screen and (max-width:840px) {
+.header-container {
+    font-size: 1.4em;
+    color: #ffff00;
+    padding: 15px 8px;
+    height: 600px;
+}
+
+/* animations for my header */
+
+@keyframes transitions {
+    from {font-size: 0em;
+    text-shadow: 20px 20px blue;}
+    to {font-size: 1.4em;
+    text-shadow: none;}
+}
+
+/* padding for my h1 in my header section */
+
+.h1-padding {
+    padding-top: 115px;
+}
+
+/* styling my icons */
+
+.icon {
+    font-size: 1em;
+}
+
+/* styling the main content */
+
+.main-content {
+    text-align: center;
+    padding: 2px 14px;
+    height: 100%;
+    font-size: 1.2em;
+}
+
+
+/* project images */
+.images {
+    width: 150px;
+    height: 150px;
+    padding: 20px 5px 5px 5px;
+}
+
+}
+
+@media only screen and (max-width:848px){
+    .header-container {
+        font-size: 1.2em;
+        padding: 14px 6px;
+        height: 580px;
+    }
+    
+    /* animations for my header */
+    
+    @keyframes transitions {
+        from {font-size: 0em;
+        text-shadow: 16px 16px blue;}
+        to {font-size: 1.2em;
+        text-shadow: none;}
+    }
+    
+    /* padding for my h1 in my header section */
+    
+    .h1-padding {
+        padding-top: 110px;
+    }
+    
+    /* styling my icons */
+    
+    .icon {
+        font-size: 0.9em;
+    }
+     
+    /* styling the navigation bar */
+    
+    nav ul,
+    li, 
+    a {
+        font-size: 0.8em;
+        margin: 9px 4px;
+        padding-right: 8px;
+    }
+    
+    li a:hover {
+        font-size: 1em;
+    }
+    
+    /* styling the main content */
+    
+    .main-content {
+        text-align: center;
+        padding: 2px 16px;
+        height: 100%;
+        font-size: 1em;
+    }
+    
+    /* a box I created to seperate my data */
+    
     .box-01 {
-        margin: 10px;
+        padding: 85px;
+        height: 480px;
+    }
+    
+    /* education */
+    
+    /* creating a grid-container to seperate secondary and tertiary education */
+    
+    .h1-size {
+        padding-right: 125px;
+        
+    }
+    
+    /* project images */
+    .images {
+        width: 120px;
+        height: 120px;
+        padding: 20px 2px 2px 2px;
+    }
+    
+    /* styling the contact page  */
+    
+    .h3-style {
+        font-size: 0.8em;
+    }
+    
+    .icons {
+        font-size: 1.em;
+    }
+    
+}
+
+@media only screen and (max-width:856px){
+    .header-container {
+        font-size: 1.1em;
+    }
+    
+    /* animations for my header */
+    
+    @keyframes transitions {
+        from {font-size: 0em;
+        text-shadow: 16px 16px blue;}
+        to {font-size: 1.1em;
+        text-shadow: none;}
+    }
+    
+     
+    /* styling the navigation bar */
+    
+    nav ul,
+    li, 
+    a {
+        font-size: 0.8em;
+        margin: 12px 4px;
+        padding-right: 6px;
     }
 
-    #contact {
-        font-size: 15px;
+}
+
+@media only screen and (max-width:670px){
+    .header-container {
+        font-size: 1em;
+        padding: 12px 4px;
+    }
+
+    @keyframes transitions {
+        from {font-size: 0em;
+        text-shadow: 16px 16px blue;}
+        to {font-size: 1em;
+        text-shadow: none;}
+    }
+
+    .h1-size {
+        padding-right: 0px;
+        
+    }
+
+    .box-01 {
+        padding: 82px;
+        height: 475px;
+    }
+    
+    
+    .grid-container {
+        display: list-item;
+        list-style: none;
+        /* grid-template-areas: 'data data';
+        grid-gap: 30px; */
+        text-align: justify;
+        font-size: 1em;
+    
+    }
+    
+    .grid-container>div {
+        background-color: rgba(245, 245, 220, 0);
+        padding: 0 20px ;
+        margin: 0 20px ;
     }
 }
 
-@media only screen and (max-width:815px) {
-    .li a {
-        font-size: 12px;
-        padding: 20px;
+@media only screen and (max-width:604px) {
+    .header-container {
+        font-size: 0.9em;
+        padding: 10px 3px;
     }
-}
 
+    @keyframes transitions {
+        from {font-size: 0em;
+        text-shadow: 16px 16px blue;}
+        to {font-size: 0.9em;
+        text-shadow: none;}
+    }
+
+    nav ul,
+    li, 
+    a {
+        font-size: 0.9em;
+        margin: 10px 2px;
+        padding-right: 4px;
+    }
+
+}
+    
+   
 
 
