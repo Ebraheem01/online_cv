@@ -512,7 +512,8 @@ footer {
 
     #about {
         padding-left: 25px;
-    padding-right: 25px;
+        padding-right: 25px;
+        height: 380px;
     }
 
     .main-content {
