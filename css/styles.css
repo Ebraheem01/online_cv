@@ -99,7 +99,7 @@ li a:hover {
 
 /* a box I created to seperate my data */
 
-.box-01 {
+.box {
     padding: 95px;
     height: 500px;
 }
@@ -291,7 +291,7 @@ li a:hover {
     
     /* a box I created to seperate my data */
     
-    .box-01 {
+    .box {
         padding: 85px;
         height: 480px;
     }
@@ -369,7 +369,7 @@ li a:hover {
         
     }
 
-    .box-01 {
+    .box {
         padding: 82px;
         height: 475px;
     }
@@ -445,7 +445,7 @@ li a:hover {
     
     /* a box I created to seperate my data */
     
-    .box-01 {
+    .box {
         padding: 0x;
         height: 475px;
     }
