@@ -41,15 +41,6 @@ body {
     text-shadow: none;}
 }
 
-/* parallax styling for the background images */
-
-.bg {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 /* padding for my h1 in my header section */
 
 .h1-padding {
@@ -448,6 +439,10 @@ footer {
             text-shadow: none;}
         }
 
+    ul {
+        padding-left: 20px;
+    }    
+
     .main-content {
         font-size: 0.9em;
     }
@@ -504,6 +499,11 @@ footer {
 @media only screen and (max-width:375px) {
     .header-container {
         font-size: 0.7em;
+        height: 390px;
+    }
+
+    .h1-padding {
+        padding-top: 80px;
     }
 
     ul {
@@ -525,6 +525,22 @@ footer {
 @media only screen and (max-width:320px) {
     .header-container {
         font-size: 0.7em;
+        height: 385px;
+    }
+
+    .h1-padding {
+        padding-top: 60px;
+    }
+
+    #projects {
+        padding-left: 60px;
+        padding-right: 54px;
+        height: 535px;
+    }
+
+    .images {
+        width: 100px;
+        height: 100px;
     }
 }
 
