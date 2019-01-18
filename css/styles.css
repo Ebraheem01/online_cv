@@ -12,7 +12,7 @@ body {
 /* styling the header */
 
 .header-container {
-    font-family: 'Star Jedi', arial;
+    font-family: 'Star Jedi', sans-serif;
     font-size: 1.6em;
     margin: 0%;
     text-align: center;
@@ -90,6 +90,7 @@ li a:hover {
 /* styling the main content */
 
 .main-content {
+    font-family: 'Staatliches', sans-serif;
     text-align: center;
     padding: 2px 16px;
     height: 100%;
