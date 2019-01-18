@@ -428,34 +428,106 @@ footer {
 }
 
 @media only screen and (max-width:425px) {
-    .main-content {
+
+    .header-container {
         font-size: 0.8em;
+        animation-name: none;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+    
+    @keyframes transitions {
+        from {
+            display: none;
+            font-size: 0em;
+            text-shadow: 16px 16px blue;
+        }
+        to {
+            display: none;
+            font-size: 0.8em;
+            text-shadow: none;}
+        }
+
+    .main-content {
+        font-size: 0.9em;
     }
     
     /* a box I created to seperate my data */
     
     .box-01 {
-        padding: 50px;
+        padding: 0x;
         height: 475px;
     }
 
+    #about {
+        padding-right: 40px;
+        padding-left: 35px;
+    }
+
+
+    #education {
+        padding-left: 50px;
+        padding-right: 60px;
+    }
+
     #skills {
-        padding-top: 100px;
-        margin-top: 70px; 
+        padding-top: 0px;
+        margin-top: 65px;
+        height: 210px
     }
 
     #experience {
-        margin-top: 100px;
-        padding-top: 100px;
+        margin-top: 0px;
+        padding-top: 40px;
+        height: 146px;
+    }
+
+    #projects {
+        padding: 10px;
+        margin-top: 0px;
     }
 
     #contactMe {
-        height: 450px;
-        font-size: 0.8em;
+        height: 220px;
+        font-size: 0.9em;
+        padding-right: 30px;
+        padding-left: 25px;
         padding-top: 100px;
         margin-top: 50px;
     }
+
+    .icons {
+        font-size: 2em;
+    }
 }
+
+@media only screen and (max-width:375px) {
+    .header-container {
+        font-size: 0.7em;
+    }
+
+    ul {
+        padding-left: 0px;
+    }
+
+    #about {
+        padding-left: 25px;
+    padding-right: 25px;
+    }
+
+    .main-content {
+        font-size: 0.8em;
+    }
+
+}
+
+@media only screen and (max-width:320px) {
+    .header-container {
+        font-size: 0.7em;
+    }
+}
+
+    
     
    
 
