@@ -14,7 +14,6 @@ body {
 
 .header-container {
     font-family: 'Star Jedi', arial;
-    /* font-family: 'Cabin', sans-serif; */
     font-size: 1.6em;
     margin: 0%;
     text-align: center;
@@ -25,7 +24,6 @@ body {
     background-size: cover;
     color: #ffe600;
     padding: 20px 10px;
-    /* text-shadow: 2px 2px blue; */
     height: 620px;
     animation-name: transitions;
     animation-duration: 3s;
@@ -52,6 +50,8 @@ body {
 .icon {
     font-size: 1.2em;
 }
+
+/* icon colour */
 
 .icon-colour01 {
     color: #000000;
@@ -80,6 +80,8 @@ a {
     padding-right: 10px;
 }
 
+/* navigation styling on hover */
+
 li a:hover {
     font-size: 1.2em;
     color: #ffe600;
@@ -98,17 +100,11 @@ li a:hover {
 /* a box I created to seperate my data */
 
 .box-01 {
-    /* margin: 20px; */
-    /* background-color: rgba(255, 255, 255, 0.562);
-    box-shadow: 5px 5px rgb(49, 48, 48); */
-    /* border-radius: 20px; */
     padding: 95px;
     height: 500px;
 }
 
-/* education */
-
-/* creating a grid-container to seperate secondary and tertiary education */
+/* different divisions for colours */
 
 #education, 
 #projects,
@@ -121,6 +117,9 @@ li a:hover {
     padding-right: 125px;
     
 }
+
+/* education */
+/* creating a grid-container to seperate secondary and tertiary education */
 
 .data {
     grid-area: data;
@@ -159,9 +158,13 @@ li a:hover {
     text-align: center;
 }
 
+/* styling the h3 in my contact section */
+
 .h3-style {
     font-size: 1em;
 }
+
+/* my icons in my contact section */
 
 .icons {
     font-size: 3em;
@@ -176,12 +179,6 @@ li a:hover {
 
 #contact a:hover {
     color: red;
-}
-
-footer {
-    width: 100%;
-    height: 10%;
-    background-color: #000000;
 }
 
 /* media queries */
@@ -381,8 +378,6 @@ footer {
     .grid-container {
         display: list-item;
         list-style: none;
-        /* grid-template-areas: 'data data';
-        grid-gap: 30px; */
         text-align: justify;
         font-size: 1em;
     
@@ -425,6 +420,7 @@ footer {
         animation-name: none;
         animation-duration: 3s;
         animation-iteration-count: 1;
+        height: 410;
     }
     
     @keyframes transitions {
@@ -455,14 +451,12 @@ footer {
     }
 
     #about {
-        padding-right: 40px;
-        padding-left: 35px;
+        padding: 30px 40px 5px 35px;
     }
 
 
     #education {
-        padding-left: 50px;
-        padding-right: 60px;
+        padding-top: 30px 60px 40px 50px;
     }
 
     #skills {
@@ -485,10 +479,7 @@ footer {
     #contactMe {
         height: 220px;
         font-size: 0.9em;
-        padding-right: 30px;
-        padding-left: 25px;
-        padding-top: 100px;
-        margin-top: 50px;
+        padding: 30px 30px 40px 25px;
     }
 
     .icons {
@@ -500,6 +491,17 @@ footer {
     .header-container {
         font-size: 0.7em;
         height: 390px;
+    }
+
+    #education {
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+
+    #contactMe {
+        margin-top: 0px;
+        padding-top: 30px;
+        padding-bottom: 20px;
     }
 
     .h1-padding {
@@ -526,6 +528,23 @@ footer {
     .header-container {
         font-size: 0.7em;
         height: 385px;
+    }
+
+    #about {
+        padding-top: 20px;
+    }
+
+    #education {
+        padding: 20px 35px 0px 40px;
+    }
+
+    #experience {
+        padding: 40px 45px 40px 15px;
+    }
+    
+    #contactMe {
+        padding-top: 20px;
+        padding-bottom: 15px;
     }
 
     .h1-padding {
