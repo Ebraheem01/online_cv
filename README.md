@@ -1,5 +1,5 @@
 # online_cv
-my cv
+my online cv
 
 
 ## Setting up your workspace
@@ -27,6 +27,7 @@ Tools:
 - VS Code
 - GitBash
 - Github
+- Google Chrome
 
 ```
 
@@ -51,6 +52,7 @@ Tools:
 2019-01-15 
 - Updated button
 - Some improvements on the new cv
+- Added grids
 
 2019-01-16
 - Updated css
