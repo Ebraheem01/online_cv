@@ -1,12 +1,21 @@
 # online_cv
-my online cv
+my cv
+
+## Introduction 
+
+- This is my online Junior Web Developer cv, it displays my skills in coding
+- I only used html and css so far
 
 
 ## Setting up your workspace
 
-- Open your terminal and launch the command 
-- Create your base folder structure (css, js, images)
-
+- Create a new repository on Github
+- Gave my repository a memorable name (online_cv)
+- Created my ReadMe
+- Created my live link
+- Open your terminal and launch the command 'git clone' and paste the link after 'git clone                  https://ebraheem01.github.io/online_cv/online-cv.html'
+- Created my index.html file 
+- Created my base folder structure (css, js, images) 
 
 ## Live Link
 
