@@ -25,17 +25,15 @@ body {
     padding: 20px 10px;
     height: 620px;
     animation-name: transitions;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: 1;
 }
 
 /* animations for my header */
 
 @keyframes transitions {
-    from {font-size: 0em;
-    text-shadow: 20px 20px blue;}
-    to {font-size: 1.6em;
-    text-shadow: none;}
+    from {font-size: 0em;}
+    to {font-size: 1.6em;}
 }
 
 /* padding for my h1 in my header section */
@@ -84,7 +82,7 @@ a {
 li a:hover {
     font-size: 1.2em;
     color: #ffe600;
-    transition: 1s;
+    transition: .7s;
 }
 
 /* styling the main content */
