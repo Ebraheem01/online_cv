@@ -1,0 +1,76 @@
+/* base styles */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* padding for my h1 in my header section */
+
+.h1-padding {
+    padding-top: 125px;
+}
+
+/* styling my icons */
+
+.icon {
+    font-size: 1.2em;
+}
+
+/* icon colour */
+
+.icon-colour01 {
+    color: #000000;
+    text-shadow: none;
+}
+
+.icon-colour02 {
+    color: white;
+    text-shadow: none;
+}
+
+/* a box I created to seperate my data */
+
+.box {
+    padding: 95px;
+    height: 500px;
+}
+
+/* different divisions for colours */
+
+#education, 
+#projects,
+#contactMe {
+    background-color: black;
+    color: white;
+}
+
+.h1-size {
+    padding-right: 125px;
+    
+}
+
+.h3-style {
+    font-size: 1em;
+}
+
+/* my icons in my contact section */
+
+.icons {
+    font-size: 3em;
+}
+
+#contact a {
+    text-shadow: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: none;
+}
+
+#contact a:hover {
+    color: red;
+}
