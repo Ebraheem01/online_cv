@@ -6,13 +6,20 @@ html {
 
 body {
     margin: 0;
-    padding: 0;
 }
 
 /* padding for my h1 in my header section */
 
 .h1-padding {
-    padding-top: 125px;
+    margin-top: 150px;
+    animation-name: transition;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes transition {
+    from {margin-top: -200px;}
+    to {margin-top: 150px;}
 }
 
 /* styling my icons */
@@ -45,6 +52,7 @@ body {
 #education, 
 #projects,
 #contactMe {
+    margin: 0;
     background-color: black;
     color: white;
 }
@@ -62,6 +70,12 @@ body {
 
 .icons {
     font-size: 3em;
+    padding-right: 20px;
+}
+
+.icons:hover {
+    color: #ffff00;
+    transition: 0.2s ease-in-out;
 }
 
 #contact a {

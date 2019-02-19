@@ -18,13 +18,6 @@
     animation-iteration-count: 1;
 }
 
-/* animations for my header */
-
-@keyframes transitions {
-    from {font-size: 0em;}
-    to {font-size: 1.6em;}
-}
-
 /* styling the navigation bar */
 
 nav ul,
@@ -45,9 +38,8 @@ a {
 /* navigation styling on hover */
 
 li a:hover {
-    font-size: 1.2em;
     color: #ffe600;
-    transition: .7s;
+    transition: .5s;
 }
 
 /* styling the main content */
