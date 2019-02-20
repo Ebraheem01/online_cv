@@ -86,32 +86,6 @@ body {
   animation-iteration-count: 1; }
 
 /* styling the navigation bar */
-.myNav {
-  overflow: hidden;
-  background-image: url(../images/stars.jpeg);
-  background-size: cover;
-  position: fixed;
-  top: -70px;
-  width: 100%;
-  transition: top .3s; }
-
-.myNav a {
-  float: left;
-  display: block;
-  color: #ffffff;
-  text-align: center;
-  padding: 12px 16px;
-  text-decoration: none;
-  font-size: .6em; }
-
-.myNav .icon {
-  display: none; }
-
-.myNav a:hover {
-  background-color: yellow;
-  color: #000000;
-  transition: .5s; }
-
 nav ul,
 li,
 a {
