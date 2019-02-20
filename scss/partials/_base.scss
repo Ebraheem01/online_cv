@@ -13,12 +13,12 @@ body {
 .h1-padding {
     margin-top: 150px;
     animation-name: transition;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-iteration-count: 1;
 }
 
 @keyframes transition {
-    from {margin-top: -200px;}
+    from {margin-top: -250px;}
     to {margin-top: 150px;}
 }
 
