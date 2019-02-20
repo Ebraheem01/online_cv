@@ -11,3 +11,28 @@
 .main-content {
     grid-area: main;
 }
+
+/* education */
+/* creating a grid-container to seperate secondary and tertiary education */
+
+.data {
+    grid-area: data;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'data data';
+    grid-gap: 30px;
+    text-align: justify;
+    font-size: 1em;
+
+}
+
+.grid-container>div {
+    background-color: rgba(245, 245, 220, 0);
+    padding: 0 20px ;
+    margin: 0 20px ;
+    
+
+}
