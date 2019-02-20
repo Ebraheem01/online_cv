@@ -86,5 +86,6 @@ body {
 }
 
 #contact a:hover {
-    color: red;
+    color: yellow;
+    transition: .2s ease-in-out;
 }
