@@ -566,7 +566,6 @@ header {
   .intro {
     padding: 0vw 12vw;
     transform: translate(-35%, -100%);
-    top: 50%;
   }
   .intro .test {
     margin: 13px auto;
