@@ -555,7 +555,6 @@ header {
 @media screen and (max-width: 370px) {
   .intro {
     padding: 0vw 12vw;
-    transform: translate(-35%, -100%);
   }
 }
 @media screen and (max-width: 375px) {
@@ -585,10 +584,9 @@ header {
     height: 65vh;
   }
 }
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 320px) {
   .intro {
     padding: 0vw 12vw;
-    transform: translate(-35%, -125%);
   }
 
   .portfolio {
