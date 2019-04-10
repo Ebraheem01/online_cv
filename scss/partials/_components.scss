@@ -1,66 +1,169 @@
-/* styling the header */
+// *******************************************************************************************************
+// global components
+// *******************************************************************************************************
 
-.header-container {
-    font-family: 'Star Jedi', sans-serif;
-    font-size: 1.6em;
-    margin: 0%;
+.myNav {
+    position: fixed;
+    overflow: hidden;
+    background-color: #333;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.767)) ,url(../images/pexels-photo-169573.jpeg);
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .myNav a {
+    position: relative;
+    float: left;
+    display: block;
+    color: #ffffff;
     text-align: center;
-    background-color: #000000;
-    background-image: url(../images/stars.jpeg);
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    color: #ffe600;
-    height: 100vh;
-    animation-name: transitions;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-}
-
-/* styling the navigation bar */
-
-nav ul,
-li, 
-a {
-    font-family: 'Cabin', sans-serif;
-    text-transform: uppercase;
-    text-shadow: 1px 1px rgb(0, 0, 0);
-    list-style-type: none;
-    color: rgb(255, 255, 255);
-    display: inline-block;
+    padding: 12px 16px;
     text-decoration: none;
-    font-size: 0.8em;
-    margin: 10px 5px;
-    padding-right: 10px;
-}
+    font-size: 1.5vw;
+  }
 
-/* navigation styling on hover */
 
-li a:hover {
-    color: #ffe600;
-    transition: .5s;
-}
+  .link:after{
+    content: ('');
+    position: absolute;
+    display: block;
+    width: 0;
+    background: rgb(240, 238, 238);
+    left: 50%;
+    height: 0.3vh;
+    transform: translateX(-50%);
+    margin-top: 5px;
+    transition: .2s linear;
+    -webkit-transition: .2s linear;
+  }
+   
+  .link:hover:after{
+    width: 90%;
+    background: black;
+  }
+  
+  .myNav .icon {
+    display: none;
+  }
 
-/* styling the main content */
-
-.main-content {
-    font-family: 'Staatliches', sans-serif;
+  .intro {
+    background-color: rgba(0, 0, 0, 0.808);
+    padding: 3vw 7vw;
+    font-family: 'Comfortaa', cursive;
     text-align: center;
-    height: 100%;
-    font-size: 1.5em;
-}
+    font-size: 2.1vw;
+    top: 50%;
+    left: 50%;
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
 
-/* project images */
-.images {
-    width: 280px;
-    height: 280px;
-    padding: 50px 10px 10px 10px;
-}
+  .test {
+    border-bottom: 2px solid white;
+    padding: 1vw;
+  }
 
-/* styling the contact page  */
+  .about {
+    padding: 0 2vw;
+    margin: 2vw;
+    font-size: 1.8vw;
+    text-align: justify;
+  }
 
-#contact {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+  .image1 {
+    margin-top: 10vw;
+  }
+
+  #education {
+    background-color: black;
+    color: white;
+   
+  }
+
+  .education-contain {
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.801)) ,url(../images/education.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 0;
+    font-size: 1.8vw;
+    padding: 88px 90px;
+    background-attachment: fixed;
+  }
+
+  .edu {
     text-align: center;
-}
+    font-size: 2vw;
+    margin-right: 10vw;
+    padding-top: 5vw;
+    text-decoration-line: underline;
+  }
+
+  .align {
+    text-align: center;
+    text-decoration-line: underline;
+  }
+
+  .skills {
+    height: 70vh;
+    padding: 5vw 2vw;
+    margin: 2vw;
+    text-align: justify;
+    color: black;
+    font-size: 1.8vw;
+
+    h1 {
+      text-decoration-line: underline;
+    }
+  }
+
+  .icons {
+    font-size: 4vw;
+    padding: .3vw;
+    color: black;
+  }
+
+  .image {
+    height: 60vh;
+    margin-left: 5vw; 
+  }
+
+  .contact,
+  .email,
+  .linkedIn,
+  .gitHub {
+    text-align: center;
+  }
+
+  .project {
+    padding: 11vw 2vw;
+    text-align: center;
+    opacity: 0;
+    font-size: 1.5vw;
+    background-color: rgba(0, 0, 0, 0.897);
+    margin: 0;
+    align-content: center;
+    height: 14vh;
+  }
+
+  .project:hover {
+    opacity: 1;
+    transition: .7s;
+  }
+
+  .btn {
+    border: 1px solid white;
+    width: 10vw;
+    height: 2vw;
+    background-color: #ffffff00;
+    color: white;
+    cursor: pointer;
+  }
+ 
+ 
+
+
+
+

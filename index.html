@@ -6,13 +6,12 @@
     <title>Online CV</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <script src="js/main.js"></script>
 
-    <!-- linking fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
-    <!-- //// -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/bars?style=solid"> 
 
-    <!-- linking icons -->
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Raleway" rel="stylesheet">
+
     <link rel="stylesheet" href="https://fontawesome.com/icons/angle-double-down?style=solid">
     <link rel="stylesheet" href="https://fontawesome.com/icons/envelope?style=solid">
     <link rel="stylesheet" href="https://fontawesome.com/icons/angle-double-up?style=solid">
@@ -21,165 +20,164 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
     <link rel="stylesheet" href="integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fontawesome.com/icons/bars?style=solid">
-    <!-- //// -->
+    <link rel="stylesheet" href="https://fontawesome.com/icons/git?style=brands">
+
+    <!-- contact icons -->
+    <link rel="stylesheet" href="https://fontawesome.com/icons/linkedin?style=brands">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/facebook?style=brands">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/github-square?style=brands">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/cloud-download-alt?style=solid">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/chevron-down?style=solid">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/mobile-alt?style=solid">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/envelope?style=regular">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/linkedin-in?style=brands">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/github-alt?style=brands">
+    <!-- end -->
+    <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
+    
 </head>
 <body>
+    
+<section class="container">
+    <header class="main-header">
+        <nav class="myNav" id="myNav">
+                <a href="#" class="active">Home</a>
+                <a href="#about" class="link">About</a>
+                <a href="#education" class="link">Education</a>
+                <a href="#skills" class="link">Skills</a>
+                <a href="#portfolio" class="link">Portfolio</a>
+                <a href="#contact" class="link">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars" ></i>
+                </a>
 
-<!-- my header which contains my name and profession including my nav -->
-    <section class="container">
-    <header class="header-container" id="BackToTop">
-            <h1 class="h1-padding">Portfolio of Ebraheem Seale</h1>
-                <h2 class="jwd-padding">Junior Web Developer</h2> 
-                    
-                <div class="nav">
-                    <ul>
-                        <li><a href="#about">About Me</a></li>
-                        <li><a href="#education">Education</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#experience">Work Experience</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contactMe">Contact</a></li>
-                    </ul>
-                </div>        
+        </nav>
+
+        <div class="intro">
+            <h1 class="test" data-aos="fade-down"> Ebraheem Seale</h1>
+                <h5 data-aos="fade-up">Junior Web Developer</h5>
+               <a href="#contact"><i class="fas fa-chevron-down icon"></i></a>
+        </div>
+
+        <section class="contactIcons1">
+            <i class="fas fa-cloud-download-alt icons"></i>
+            <a href="https://www.linkedin.com/" target="_blank"> <i class="fab fa-linkedin icons"></i></a>
+            <a href="https://github.com/Ebraheem01" target="_blank"> <i class="fab fa-github-square icons"> </i></a>
+        </section>
     </header>
 
-<!-- my main section which includes all my info         -->
+    <main class="content">
+        <section id="about" class="about-contain">
+            <article class="about">
+            <h1 class="align">About Me</h1>
+                <p>
+                    I'm an 18 year old, self-motivated, go-getter. I enjoy interacting with and meeting new people. I easily adapt to change and have the ability to deal with stressful situations. I work well with others and believe I have good communication skills; I am a hard worker who never leaves anything incomplete.
+                </p>
 
-<!-- a section introducing myself -->
+            <h1 class="align">My Interests</h1>
+                <p>
+                    My interests would include music as I am a part-time DJ, also a big fan of marvel movies. I enjoy spending time with family and I like outdoor activities like hiking and swimming.
+                </p>
+           </article>
 
-        <main class="main-content">
-            <article class="box" id="about">
-                <div class="parallax1"></div>
-                <u>
-                    <h1>About Me</h1>
-                </u>
-                    <p>
-                        I'm an 18 year old, self-motivated, go-getter. I enjoy interacting with and meeting new people. I easily adapt to change and have the ability to deal with stressful situations. I work well with others and believe I have good communication skills; I am a hard worker who never leaves anything incomplete.
-                    </p>
-                <u>
-                    <h1>My Interests</h1>
-                </u>
-                    <p>
-                        My interests would include music as I am a part-time DJ, also a big fan of marvel movies. I enjoy spending time with family and I like outdoor activities like hiking and swimming.
-                    </p>
-                <!-- icons -->
-                <br>
-                <br>
-                <a href="#BackToTop"><i class="fas fa-angle-double-up icon-colour01"></i></a>
-                <a href="#education"><i class="fas fa-angle-double-down icon-colour01"></i></a>
-            </article>
+           <article class="image1">
+               <img class="image" src="images/FB_IMG_1529350090074.jpg" alt="">
+           </article>
+        </section>
 
-<!-- a section about my education history             -->
-
-            <article class="box" id="education">
-                <u>
-                    <h2 class="h1-size">Education</h2>
-                </u>
-            <div class="grid-container">
-                <div class="data"></div>
-                <article class="data1">
-                    <h3>
-                        Tertiary Education
-                    </h3>
-                        <h4>Life Choices Academy</h4>
+        <article id="education">
+            <h1 class="edu">Education</h1>
+            <section class="education-contain">
+                <article class="data1" data-aos="fade-up">
+                    <h3>Tertiary Education</h3>
+                        <p>Life Choices Academy<p>
                             <p>Year: November 2018 to April 2019</p>
                             <p>Subjects: Programming, Life Skills, Professional Development</p>
-                    </article>
-                <section class="data2">
+            <div class="lifeChoices"></div>
+                </article>
+                <article class="data2" data-aos="fade-down">
                     <h3>Secondary Education</h3>
-                        <h4>Darul Islam Islamic School</h4>
+                        <p>Darul Islam Islamic School</p>
                             <p>Year: 2017</p>
                             <p>Subjects: Business Studies, History, Geography</p>
-                </section>    
-            </div>
-
-            <!-- icons -->
-
-            <br>
-            <a href="#about"><i class="fas fa-angle-double-up icon-colour02 "></i></a>
-            <a href="#skills"><i class="fas fa-angle-double-down icon-colour02"></i></a>    
-            </article>
-
-<!-- a section on my skills and abilities             -->
-
-            <article class="box" id="skills">
-                <u><h1>Skills</h1></u>
-                    <p>Good communication skills</p>
-                    <p>Patient</p>
-                    <p>Diplomatic</p>
-                    <p>Ability to work under pressure</p>
-                        <i class="fab fa-html5 icons"></i>
-                        <i class="fab fa-css3-alt icons"></i>
-                        <i class="fab fa-sass icons"></i>
-                        <i class="fab fa-js-square icons"></i>
-
-                            <!-- icons -->
-
-                            <br>
-                            <br>
-                            <a href="#education"><i class="fas fa-angle-double-up icon-colour01"></i></a>
-                            <a href="#projects"><i class="fas fa-angle-double-down icon-colour01"></i></a>
-            </article>
-
-<!-- a section containing my projects             -->
-
-            <article class="box" id="projects">
-                <u><h1>Projects</h1></u>
-                    <a href="https://ebraheem01.github.io/tech_movies/index.html" target="_blank">
-                        <img class="images" src="images/techtalk.png" alt="">
-                    </a>
-
-                    <a href="https://ebraheem01.github.io/apology-letter/index.html" target="_blank">
-                        <img class="images" src="images/Please-forgive-me.jpg" alt="">
-                    </a>    
-                    
-                    <a href="https://ebraheem01.github.io/virtual_reality/index.html" target="_blank"> 
-                        <img class="images" src="images/Virtual-Reality-WP.jpg" alt="">
-                    </a>    
-                <!-- icons -->
-
-                <br>
-                <br>
-                </i><a href="#skills"><i class="fas fa-angle-double-up icon-colour02"></i></a>
-                <a href="#experience"><i class="fas fa-angle-double-down icon-colour02"></i></a>
-            </article>
-        
-<!-- a section on my work experience -->
-
-            <article class="box" id="experience">
-                <u><h1>Work Experience</h1></u>
-                    <p>Currently a part time DJ</p>
-                    <p>Akila Foods: part time Warehouse Assistant 2016</p>
-
-                    <!-- icons -->
-
-                    <br>
-                    <br>
-                    <a href="#projects"><i class="fas fa-angle-double-up icon-colour01"></i></a>
-                    <a href="#contactMe"><i class="fas fa-angle-double-down icon-colour01"></i></a>
-            </article>
-
-<!-- my contact section             -->
-
-        <section class="box" id="contactMe">    
-            <u><h1>Contact Me</h1></u>
-                <article id="contact">            
-                    <i class="fas fa-mobile-alt icons"></i>
-                    <i class="far fa-envelope icons"></i>
-                    <i class="fab fa-github-alt icons"></i>
-                        <h3 class="h3-style"> <a href="#">0844207831</a></h3>
-                        <h3 class="h3-style"> <a href="mailto:ebraheemseale@gmail.com" target="_blank">ebraheemseale@gmail.com</a></h3>
-                        <h3 class="h3-style"> <a href="https://github.com/Ebraheem01" target="_blank"> Ebraheem01 </a></h3>
                 </article>
+            </section> 
+            </article>
 
-                <!-- icons -->
+            <section class="skills" id="skills">
+                <article class="soft">
+                    <h1>Skills</h1>
+                        <p>Good communication skills</p>
+                        <p>Patient</p>
+                        <p>Diplomatic</p>
+                        <p>Ability to work under pressure</p>   
+                    <i class="fab fa-html5 icons" data-aos="fade-down-right"></i>
+                    <i class="fab fa-css3-alt icons" data-aos="fade-up"></i>
+                    <i class="fab fa-sass icons" data-aos="fade-down"></i>
+                    <i class="fab fa-js-square icons" data-aos="fade-up"></i>
+                    <i class="fab fa-git icons" data-aos="fade-down-left"></i>
+                </article> 
 
-                <br>
-                <br>
-                </i><a href="#BackToTop"><i class="fas fa-angle-double-up icon-colour02"></i></a>
-        </section>            
+                <article class="image">
+                    <img class="image2" src="images/AkankashaD-Dec2014-Skills-Shutterstock.jpg" alt="">
+                </article>
+            </section>
+
+            <section class="portfolio" id="portfolio">
+                <h1 class="projects">Portfolio</h1>
+                    <div class="project1" data-aos="fade-left">
+                        <p class="project"> A project on Outdoor Activities 
+                          <a href="https://ebraheem01.github.io/outdoor-adventures/" target="_blank"> <button class="btn">Go To Project</button></a>
+                        </p>
+                        
+                    </div>
+                    <div class="project2" data-aos="fade-down">
+                        <p class="project"> A fashion shop project 
+                            <a href="https://ebraheem01.github.io/fashion/" target="_blank"> <button class="btn">Go To Project</button> </a>
+                        </p>
+                    </div>
+                    <div class="project3" data-aos="fade-right">
+                        <p class="project"> A football blog project 
+                            <a href="http://football-blog-football-blog.1d35.starter-us-east-1.openshiftapps.com/" target="_blank"> <button class="btn">Go To Project</button></a>
+                        </p>
+                    </div>
+            </section>
+
+            
+                <h1 class="align" id="contact">Contact Details</h1>
+                <section class="contact">
+                    <span class="phone">
+                        <i class="fas fa-mobile-alt icons"></i>
+                        <h1> (+27)84 420 7831</h1>
+                    </span>
+                    <span class="email">
+                       <a href="mailto:ebraheemseale@gmail.com" target="_blank"><i class="far fa-envelope icons"></i></a>
+                        <h1>ebraheemseale@gmail.com</h1>
+                    </span>
+                    <span class="linkedIn">
+                       <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in icons"></i></a>
+                        <h1>Ebraheem Seale</h1>
+                    </span>
+                    <span class="gitHub">
+                       <a href="https://github.com/Ebraheem01" target="_blank"><i class="fab fa-github-alt icons"></i></a>
+                        <h1>Ebraheem01</h1>
+                    </span>
+            </section>
+
+            <footer class="footer">
+                <h1>&copy; Ebraheem Seale</h1>
+            </footer>
+            
     </main>
-    </section>
+</section>
 
+        <script src="js/nav.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+            AOS.init({
+                duration: 2000,
+            })
+        </script>
 </body>
 </html>

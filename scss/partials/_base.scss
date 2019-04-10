@@ -1,91 +1,53 @@
-/* base styles */
+// base
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
 }
 
 body {
     margin: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
-/* padding for my h1 in my header section */
-
-.h1-padding {
-    margin-top: 150px;
-    animation-name: transition;
-    animation-duration: 4s;
-    animation-iteration-count: 1;
+header {
+    background-color: white;
 }
 
-@keyframes transition {
-    from {margin-top: -250px;}
-    to {margin-top: 150px;}
+.main-header {
+    grid-area: header;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.767)) ,url(../images/pexels-photo-169573.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
 }
 
-/* styling my icons */
+.contactIcons1 {
+    position: absolute;
+    bottom: 0;
+    right: 1vw;
+    font-size: 3.2vw;
+    color: black;
+}
 
 .icon {
-    font-size: 1.2em;
-}
-
-/* icon colour */
-
-.icon-colour01 {
-    color: #000000;
-    text-shadow: none;
-}
-
-.icon-colour02 {
     color: white;
-    text-shadow: none;
-}
-
-/* a box I created to seperate my data */
-
-.box {
-    padding: 95px;
-    height: 500px;
-}
-
-/* different divisions for colours */
-
-#education, 
-#projects,
-#contactMe {
-    margin: 0 auto;
-    background-color: black;
-    color: white;
-}
-
-.h1-size {
-    padding-right: 125px;
-    
-}
-
-.h3-style {
-    font-size: 1em;
-}
-
-/* my icons in my contact section */
-
-.icons {
-    font-size: 3em;
-    padding-right: 20px;
 }
 
 .icons:hover {
-    color: #ffff00;
-    transition: 0.2s ease-in-out;
+    color: rgba(0, 0, 0, 0.719);
+    transition: .3s;
 }
 
-#contact a {
-    text-shadow: none;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    text-transform: none;
-}
+// PSEUDO CLASSES
+.myNav a:hover {
+    background-color: #ffffff;
+    color: #000000;
+    transition: .5s;
+  }
 
-#contact a:hover {
-    color: yellow;
-    transition: .2s ease-in-out;
-}
+  
+  .active {
+    background-color: black;
+    color: #ffffff;
+  }

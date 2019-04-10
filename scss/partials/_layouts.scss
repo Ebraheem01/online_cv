@@ -1,0 +1,138 @@
+.container {
+    display: grid;
+    grid-gap: 1vw;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+                         "header header header"
+                         "main main main"
+                         "footer footer footer"
+}
+
+.content {
+    grid-area: main;
+}
+
+.about-contain {
+    height: 100vh;
+    display: grid;
+    grid-gap: 1.6vw;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+                         "about image1";
+}
+
+.about {
+    grid-area: about;
+}
+
+.image1 {
+    grid-area: image1;
+}
+
+.education-contain {
+    height: 64vh;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-gap: 1.6vw;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+                         "tertiary secondary";
+}
+
+.data1 {
+    grid-area: tertiary;
+}
+
+.data2 {
+    grid-area: secondary;
+}
+
+.skills {
+    height: 65vh;
+    display: grid;
+    grid-gap: 1vw;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+                         "soft image";
+}
+
+.soft {
+    grid-area: soft;
+}
+
+.image {
+    grid-area: image;
+}
+
+.portfolio {
+    background-image: linear-gradient(#000000b7, #000000b7),url(../images/keyboard.jpg);
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    padding: 0 3vw;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-gap: 1vw;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+
+.projects {
+    text-align: center;
+    grid-column: 2;
+    font-size: 2vw;
+    text-decoration-line: underline;
+}
+
+.project1 {
+    background-image: url(../images/outdoors.PNG);
+    background-size: 100% 100%;
+    grid-column: 1 / 2;
+    grid-row: 2 / 8;
+    margin: 0 10px 0 10px;
+}
+
+.project2 {
+    background-image: url(../images/fashion.PNG);
+    background-size: 100% 100%;
+    grid-column: 2 / 2;
+    grid-row: 3 / 9;
+    margin: 0 10px 0 10px;
+}
+
+.project3 {
+    background-image: url(../images/blog.PNG);
+    background-size: 100% 100%;
+    grid-column: 3 / 3;
+    grid-row: 2 / 8;
+    margin: 0 10px 0 10px;
+}
+
+
+
+.contact {
+    padding: 5vw;
+    display: grid;
+    grid-gap: 1vw;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer {
+    grid-area: footer;
+    text-align: center;
+    color: white;
+    background-color: #333;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.767)) ,url(../images/pexels-photo-169573.jpeg);
+    height: 10vh;
+    margin-bottom: -7px;
+
+    >h1 {
+        padding-top: 1vw;
+    }
+}   
+    
