@@ -570,6 +570,9 @@ header {
   .intro .test {
     margin: 13px auto;
   }
+  .intro .edu {
+    font-size: 3vw;
+  }
 
   .image {
     height: 19vh;
