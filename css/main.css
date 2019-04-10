@@ -290,7 +290,7 @@ header {
 }
 
 .project1 {
-  background-image: url(../images/outdoors.PNG);
+  background-image: url(../images/man-person-jumping-desert.jpg);
   background-size: 100% 100%;
   grid-column: 1/2;
   grid-row: 2/8;
@@ -298,7 +298,7 @@ header {
 }
 
 .project2 {
-  background-image: url(../images/fashion.PNG);
+  background-image: url(../images/woman-streetwear-crouching.jpg);
   background-size: 100% 100%;
   grid-column: 2/2;
   grid-row: 3/9;
@@ -306,7 +306,7 @@ header {
 }
 
 .project3 {
-  background-image: url(../images/blog.PNG);
+  background-image: url(../images/cristiano-ronaldo-3840x2160-fifa-19-e3-2018-2019-games-4k-14358.jpg);
   background-size: 100% 100%;
   grid-column: 3/3;
   grid-row: 2/8;
@@ -386,7 +386,7 @@ header {
   }
 
   .image2 {
-    width: 60vw;
+    width: 43vw;
   }
 
   .project {
@@ -403,6 +403,10 @@ header {
     height: 40vh;
   }
 
+  .about {
+    padding: 2vw 2vw;
+  }
+
   .education-contain {
     height: 23vh;
   }
@@ -417,6 +421,11 @@ header {
 
   .project {
     padding: 15vw 2vw;
+  }
+
+  .btn {
+    width: 20vw;
+    height: 4vw;
   }
 }
 @media screen and (max-width: 600px) {
@@ -446,43 +455,65 @@ header {
     text-align: left;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 425px) {
-  .container {
-    display: grid;
-    grid-gap: 1vw;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas: "header" "main" "footer";
+@media screen and (max-width: 425px) {
+  .myNav a {
+    font-size: 2.5vw;
+  }
+
+  .intro {
+    background-color: rgba(0, 0, 0, 0.212);
+    padding: 7vw 12vw;
+    font-size: 3.5vw;
+    width: 48vw;
+    top: 28%;
+    left: 38%;
+    color: white;
+    position: absolute;
+    transform: translate(-35%, -85%);
+    height: 47vw;
   }
 
   .about-contain {
-    height: 100vh;
-    display: grid;
-    grid-gap: 1.6vw;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "about" "image1";
+    display: block;
+    height: 65vh;
+  }
+  .about-contain .about {
+    padding: 0 2vw;
+    margin: 2vw;
+    font-size: 3.5vw;
+    text-align: justify;
   }
 
   .education-contain {
-    height: 64vh;
-    background-color: black;
-    color: white;
-    display: grid;
-    grid-gap: 1.6vw;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "tertiary" "secondary";
+    height: 30vh;
+    display: block;
+    font-size: 2.8vw;
+  }
+
+  .image2 {
+    margin-top: 7vw;
+    width: 52vw;
   }
 
   .skills {
-    height: 65vh;
-    display: grid;
-    grid-gap: 1vw;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "soft" "image";
+    display: block;
+    font-size: 2.8vw;
+    height: 40vh;
+  }
+
+  .main-header {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 33vh;
+  }
+
+  .project {
+    padding: 15vw 15vw;
+    font-size: 2.5vw;
   }
 
   .portfolio {
-    height: 140vh;
+    height: 90vh;
     background-color: black;
     color: white;
     display: grid;
@@ -490,140 +521,68 @@ header {
     grid-template-areas: "projects" "project1" "project2" "project3" "project4" "project5";
   }
 
-  .myNav {
-    position: fixed;
-    width: 100%;
-  }
-
-  .myNav a {
-    font-size: 4vw;
-  }
-
-  .main-header {
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 83vh;
-  }
-
-  .intro {
-    padding: 2vw 20vw;
-    font-size: 3.5vw;
-    top: 36%;
-    left: 103%;
-    color: white;
-    position: absolute;
-    transform: translate(-36%, -53%);
-  }
-
-  .test {
-    padding: 5vw;
-  }
-
-  .contactIcons1 {
-    visibility: hidden;
-  }
-
-  .about {
-    padding: 0 2vw;
-    margin: 2vw;
-    font-size: 5vw;
-    text-align: justify;
-  }
-
-  .image1 {
-    margin-left: 250px;
-  }
-
-  .image {
-    height: 30vh;
-  }
-
-  .education-contain {
-    font-size: 5vw;
-    text-align: justify;
-  }
-
-  .edu {
-    text-align: center;
-    font-size: 8vw;
-  }
-
-  .image2 {
-    visibility: hidden;
-  }
-
-  .skills {
-    font-size: 6.8vw;
-  }
-
-  .icons {
-    font-size: 10vw;
-  }
-
   .projects {
-    grid-column: 3/3;
-    text-align: center;
-    grid-area: projects;
-    font-size: 6vw;
-    text-decoration-line: underline;
+    font-size: 5vw;
   }
 
   .project1 {
     margin-top: 5vw;
     grid-area: project1;
-    grid-column: 3/3;
+    grid-column: 2/2;
   }
 
   .project2 {
     margin-top: 5vw;
     grid-area: project2;
-    grid-column: 3/3;
+    grid-column: 2/2;
   }
 
   .project3 {
     margin-top: 5vw;
     grid-area: project3;
-    grid-column: 3/3;
-  }
-
-  .project4 {
-    margin-top: 5vw;
-    grid-area: project4;
-    grid-column: 3/3;
-  }
-
-  .project5 {
-    margin-top: 5vw;
-    grid-area: project5;
-    grid-column: 3/3;
-  }
-
-  .project {
-    visibility: hidden;
+    grid-column: 2/2;
   }
 
   .contact {
-    padding: 5vw;
-    display: grid;
-    grid-gap: 1vw;
-    grid-template-areas: "phone email" "linkedIn github";
-    margin-left: 60vw;
+    display: block;
   }
 
-  .phone {
-    grid-area: phone;
+  .btn {
+    width: 30vw;
+    height: 4vw;
+  }
+}
+@media screen and (max-width: 375px) {
+  .main-header {
+    height: 67vw;
   }
 
-  .email {
-    grid-area: email;
+  .intro {
+    padding: 0vw 12vw;
+    transform: translate(-35%, -100%);
+  }
+  .intro .test {
+    margin: 13px auto;
   }
 
-  .linkedIn {
-    grid-area: linkedIn;
+  .project {
+    padding: 10vw 8vw;
+    font-size: 2.5vw;
+  }
+}
+@media screen and (max-width: 320px) {
+  .intro {
+    padding: 0vw 12vw;
+    transform: translate(-35%, -125%);
   }
 
-  .gitHub {
-    grid-area: github;
+  .portfolio {
+    grid-template-rows: repeat(6, 1fr);
+  }
+
+  .btn {
+    width: 35vw;
+    height: 6vw;
   }
 }
 

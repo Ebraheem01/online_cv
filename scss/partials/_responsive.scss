@@ -53,7 +53,7 @@
   }
 
   .image2 {
-    width: 60vw;
+    width: 43vw;
   }
 
   .project {
@@ -74,6 +74,10 @@
     height: 40vh;
   }
 
+  .about {
+    padding: 2vw 2vw;
+  }
+
   .education-contain {
     height: 23vh;
   }
@@ -90,6 +94,11 @@
   .project {
     padding: 15vw 2vw;
   }
+
+  .btn {
+    width: 20vw;
+    height: 4vw;
+}
 
 
 }
@@ -118,200 +127,150 @@
     }
   }
 
-  @media screen and (min-width:320px) and (max-width:425px) {
+  @media screen and (max-width:425px) {
 
-    .container {
-      display: grid;
-      grid-gap: 1vw;
-      grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: auto;
-      grid-template-areas: 
-                           "header"
-                           "main"
-                           "footer"
+    .myNav a {
+      font-size: 2.5vw;
   }
 
-  .about-contain {
-    height: 100vh;
-    display: grid;
-    grid-gap: 1.6vw;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: 
-                         "about"
-                         "image1";
-}
+    .intro {
+      background-color: rgba(0, 0, 0, 0.212);
+      padding: 7vw 12vw;
+      font-size: 3.5vw;
+      width: 48vw;
+      top: 28%;
+      left: 38%;
+      color: white;
+      position: absolute;
+      transform: translate(-35%, -85%);
+      height: 47vw;
+  }
 
-.education-contain {
-  height: 64vh;
-  background-color: black;
-  color: white;
-  display: grid;
-  grid-gap: 1.6vw;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-areas: 
-                       "tertiary" 
-                       "secondary";
-}
+   .about-contain {
+    display: block;
+    height: 65vh;
 
-.skills {
-  height: 65vh;
-  display: grid;
-  grid-gap: 1vw;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-areas: 
-                       "soft" 
-                       "image";
-}
+      .about {
+        padding: 0 2vw;
+        margin: 2vw;
+        font-size: 3.5vw;
+        text-align: justify;
+      }
+     
+   }
 
-.portfolio {
-  height: 140vh;
-  background-color: black;
-  color: white;
-  display: grid;
-  grid-gap: 1vw;
-  grid-template-areas: "projects"
-                       "project1"
-                       "project2"
-                       "project3"
-                       "project4"
-                       "project5";
-}
+    .education-contain {
+      height: 30vh;
+      display: block;
+      font-size: 2.8vw;
+    }
+
+    
+    .image2 {
+      margin-top: 7vw;
+      width: 52vw;
+    }
+
+    .skills {
+      display: block;
+      font-size: 2.8vw;
+      height: 40vh;
+    }
+    
+    .main-header {
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 33vh;
+    }
+
+    .project {
+      padding: 15vw 15vw;
+      font-size: 2.5vw;
+    }
+
+    .portfolio {
+      height: 90vh;
+      background-color: black;
+      color: white;
+      display: grid;
+      grid-gap: 1vw;
+      grid-template-areas: "projects"
+                           "project1"
+                           "project2"
+                           "project3"
+                           "project4"
+                           "project5";
+    }
+
+    .projects {
+      font-size: 5vw;
+    }
+
+    .project1 {
+      margin-top: 5vw;
+      grid-area: project1;
+      grid-column: 2/2;
+    }
+    .project2 {
+      margin-top: 5vw;
+      grid-area: project2;
+      grid-column: 2/2;
+    }
+    .project3 {
+      margin-top: 5vw;
+      grid-area: project3;
+      grid-column: 2/2;
+    }
+
+    .contact {
+      display: block;
+    }
+
+    .btn {
+      width: 30vw;
+      height: 4vw;
+  }
   
+  
+  }
 
-.myNav {
-  position: fixed;
-  width: 100%;
-}
+  @media screen and (max-width:375px) {
+    .main-header {
+      height: 67vw;
+    }
 
-.myNav a {
-  font-size: 4vw;
-}
+    .intro {
+      padding: 0vw 12vw;
+      transform: translate(-35%, -100%);
 
-.main-header {
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 83vh;
-}
+      .test {
+        margin: 13px auto;
+    }
+  }
 
-.intro {
-  padding: 2vw 20vw;
-  font-size: 3.5vw;
-  top: 36%;
-  left: 103%;
-  color: white;
-  position: absolute;
-  transform: translate(-36%, -53%);
-}
+  .project {
+    padding: 10vw 8vw;
+    font-size: 2.5vw;
+  }
 
-.test {
-  padding: 5vw;
-}
+  }
 
-.contactIcons1 {
-  visibility: hidden;
-}
 
-.about {
-  padding: 0 2vw;
-  margin: 2vw;
-  font-size: 5vw;
-  text-align: justify;
-}
 
-.image1 {
-  margin-left: 250px; 
-}
+  @media screen and (max-width:320px)  {
 
-.image {
-  height: 30vh;
-}
+    .intro {
+      padding: 0vw 12vw;
+      transform: translate(-35%, -125%);
+   }
 
-.education-contain {
-  font-size: 5vw;
-  text-align: justify;
-}
+  .portfolio {
+    grid-template-rows: repeat(6, 1fr);
+  }
 
-.edu {
-  text-align: center;
-  font-size: 8vw;
-}
+  .btn {
+    width: 35vw;
+    height: 6vw;
+  }
 
-.image2 {
-  visibility: hidden;
-}
-
-.skills {
-  font-size: 6.8vw;
-}
-
-.icons {
-  font-size: 10vw;
-}
-
-.projects {
-  grid-column: 3 / 3;
-  text-align: center;
-  grid-area: projects;
-  font-size: 6vw;
-  text-decoration-line: underline;
-}
-
-.project1 {
-  margin-top: 5vw; 
-  grid-area: project1;
-  grid-column: 3 / 3;
-}
-
-.project2 {
-  margin-top: 5vw;
-  grid-area: project2;
-  grid-column: 3 / 3;
-}
-
-.project3 {
-  margin-top: 5vw;
-  grid-area: project3;
-  grid-column: 3 / 3;
-}
-
-.project4 {
-  margin-top: 5vw;
-  grid-area: project4;
-  grid-column: 3 / 3;
-}
-
-.project5 {
-  margin-top: 5vw;
-  grid-area: project5;
-  grid-column: 3 / 3;
-}
-
-.project {
-  visibility: hidden;
-}
-
-.contact {
-  padding: 5vw;
-  display: grid;
-  grid-gap: 1vw;
-  grid-template-areas: "phone email"
-                       "linkedIn github";
-    margin-left: 60vw;
-}
-
-.phone {
-  grid-area: phone;
-}
-
-.email {
-  grid-area: email;
-}
-
-.linkedIn {
-  grid-area: linkedIn;
-}
-
-.gitHub {
-  grid-area: github;
-}
   }
