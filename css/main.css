@@ -498,7 +498,7 @@ header {
   .skills {
     display: block;
     font-size: 2.8vw;
-    height: 40vh;
+    height: 50vh;
   }
 
   .main-header {
@@ -550,6 +550,12 @@ header {
   .btn {
     width: 30vw;
     height: 4vw;
+  }
+}
+@media screen and (max-width: 370px) {
+  .intro {
+    padding: 0vw 12vw;
+    transform: translate(-35%, -100%);
   }
 }
 @media screen and (max-width: 375px) {
