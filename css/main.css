@@ -570,9 +570,6 @@ header {
   .intro .test {
     margin: 13px auto;
   }
-  .intro .edu {
-    font-size: 3vw;
-  }
 
   .image {
     height: 19vh;
@@ -601,6 +598,10 @@ header {
   .btn {
     width: 35vw;
     height: 6vw;
+  }
+
+  .edu {
+    font-size: 3vw;
   }
 }
 
