@@ -128,6 +128,13 @@
   }
 
   @media screen and (max-width:425px) {
+    
+    .main-header {
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      background-position: center;
+  }
 
     .myNav a {
       font-size: 2.5vw;
@@ -142,7 +149,7 @@
       left: 38%;
       color: white;
       position: absolute;
-      transform: translate(-35%, -85%);
+      transform: translate(-35%, 0);
       height: 47vw;
   }
 
@@ -175,12 +182,6 @@
       display: block;
       font-size: 2.8vw;
       height: 50vh;
-    }
-    
-    .main-header {
-      background-size: contain;
-      background-repeat: no-repeat;
-      height: 33vh;
     }
 
     .project {
@@ -245,7 +246,7 @@
 
   @media screen and (max-width:375px) {
     .main-header {
-      height: 67vw;
+      height: 100vh;
     }
 
     .intro {
@@ -280,8 +281,8 @@
 
     .intro {
       padding: 0vw 12vw;
-      transform: translate(-35%, -125%);
-   }
+      transform: translate(-35%, -55%);
+  }
 
   .portfolio {
     grid-template-rows: repeat(6, 1fr);
