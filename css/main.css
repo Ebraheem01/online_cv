@@ -482,7 +482,7 @@ header {
 
   .about-contain {
     display: block;
-    height: 65vh;
+    height: 78vh;
   }
   .about-contain .about {
     padding: 0 2vw;
@@ -574,17 +574,22 @@ header {
   }
 
   .image {
-    height: 19vh;
-    margin-left: 4vw;
+    width: 90vw;
+    height: 40vh;
   }
 
   .project {
-    padding: 0vw 0vw;
+    padding: 10vw 25vw;
     font-size: 2.5vw;
   }
 
   .portfolio {
-    height: 65vh;
+    height: 80vh;
+  }
+
+  .about-contain {
+    display: block;
+    height: 75vh;
   }
 }
 @media screen and (max-width: 320px) {
