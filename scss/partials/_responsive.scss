@@ -1,7 +1,7 @@
 @media screen and (max-width:1440px) {
 
   .about-contain {
-    height: 65vh;
+    height: 100vh;
   }
 
   .about {
@@ -14,21 +14,22 @@
   }
 
   .image {
-    height: 35vh;
+    height: 60vh;
     margin-left: 5vw;
-  }
+    margin-top: 4vw;
+}
 
   .education-contain {
     height: 35vh;
   }
 
   .skills {
-    height: 40vh;
+    height: 60vh;
     display: grid;
     grid-gap: 1vw;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "soft image";
-  }
+}
 
   .intro {
     background-color: rgba(0, 0, 0, 0.808);
@@ -66,12 +67,12 @@
 
 @media screen and (max-width:768px) {
   .image {
-    height: 24vh;
+    height: 32vh;
     margin-left: 5vw;
-  }
+}
 
   .about-contain {
-    height: 40vh;
+    height: 60vh;
   }
 
   .about {
@@ -79,7 +80,7 @@
   }
 
   .education-contain {
-    height: 23vh;
+    height: 33vh;
   }
 
   .image2 {
@@ -87,8 +88,7 @@
   }
 
   .skills {
-    height: 22vh;
-
+    height: 45vh;
   }
 
   .project {
@@ -176,6 +176,7 @@
     .image2 {
       margin-top: 7vw;
       width: 52vw;
+      display: -webkit-box;
     }
 
     .skills {
@@ -190,7 +191,7 @@
     }
 
     .portfolio {
-      height: 107vh;
+      height: 133vh;
       background-color: black;
       color: white;
       display: grid;
@@ -198,9 +199,12 @@
       grid-template-areas: "projects"
                            "project1"
                            "project2"
-                           "project3"
-                           "project4"
-                           "project5";
+                           "project3";
+    }
+
+    .image {
+      height: 25vh;
+      margin-left: 30vw;
     }
 
     .projects {
@@ -262,15 +266,22 @@
   .image {
     width: 90vw;
     height: 40vh;
+    margin-left: 5vw;
+  }
+
+  .education-contain {
+    height: 35vh;
+    display: block;
+    font-size: 2.8vw;
   }
 
   .project {
     padding: 10vw 25vw;
     font-size: 2.5vw;
-}
+  }
 
   .portfolio {
-    height: 100vh;
+    height: 105vh;
   }
 
   .about-contain {
