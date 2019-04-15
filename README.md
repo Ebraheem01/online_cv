@@ -3,7 +3,9 @@ my cv
 
 ## Introduction 
 
-- This is my online Junior Web Developer CV.
+- This is my online Junior Web Developer cv, it displays my skills in coding
+- I only used html and css so far
+
 
 ## Setting up your workspace
 
@@ -13,7 +15,7 @@ my cv
 - Created my live link
 - Open your terminal and launch the command 'git clone' and paste the link after 'git clone                  https://ebraheem01.github.io/online_cv/online-cv.html'
 - Created my index.html file 
-- Created my base folder structure (css, js, images, scss) 
+- Created my base folder structure (css, js, images) 
 
 ## Live Link
 
@@ -27,8 +29,6 @@ Languages:
 
 - HTML
 - CSS
-- SASS
-- JS
 ```
 ```
 Tools:

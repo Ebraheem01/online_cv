@@ -333,7 +333,10 @@ header {
     width: 43vw; }
 
   .project {
-    padding: 5vw 2vw; } }
+    padding: 2.2vw 2vw; } }
+@media screen and (max-width: 1024px) {
+  .project {
+    padding: 3vw 2vw; } }
 @media screen and (max-width: 768px) {
   .image {
     height: 32vh;
@@ -355,11 +358,11 @@ header {
     height: 45vh; }
 
   .project {
-    padding: 15vw 2vw; }
+    padding: 5vw 2vw; }
 
   .btn {
     width: 20vw;
-    height: 4vw; } }
+    height: 5vw; } }
 @media screen and (max-width: 600px) {
   .myNav a:not(:first-child) {
     display: none; }
@@ -428,7 +431,7 @@ header {
 
   .project {
     padding: 15vw 15vw;
-    font-size: 2.5vw; }
+    font-size: 3.5vw; }
 
   .portfolio {
     height: 133vh;
@@ -465,7 +468,7 @@ header {
 
   .btn {
     width: 30vw;
-    height: 4vw; } }
+    height: 5vw; } }
 @media screen and (max-width: 370px) {
   .intro {
     padding: 0vw 12vw;
@@ -493,7 +496,7 @@ header {
 
   .project {
     padding: 10vw 25vw;
-    font-size: 2.5vw; }
+    font-size: 3.5vw; }
 
   .portfolio {
     height: 105vh; }

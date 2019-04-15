@@ -58,11 +58,17 @@
   }
 
   .project {
-    padding: 5vw 2vw;
+    padding: 2.2vw 2vw;
 }
 
 
 
+}
+
+@media screen and (max-width:1024px) {
+  .project {
+    padding: 3vw 2vw;
+  }
 }
 
 @media screen and (max-width:768px) {
@@ -92,12 +98,12 @@
   }
 
   .project {
-    padding: 15vw 2vw;
+    padding: 5vw 2vw;
   }
 
   .btn {
     width: 20vw;
-    height: 4vw;
+    height: 5vw;
 }
 
 
@@ -187,7 +193,7 @@
 
     .project {
       padding: 15vw 15vw;
-      font-size: 2.5vw;
+      font-size: 3.5vw;
     }
 
     .portfolio {
@@ -233,7 +239,7 @@
 
     .btn {
       width: 30vw;
-      height: 4vw;
+      height: 5vw;
   }
   
   
@@ -277,7 +283,7 @@
 
   .project {
     padding: 10vw 25vw;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
   }
 
   .portfolio {
